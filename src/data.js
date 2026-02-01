@@ -35,7 +35,7 @@ const experience = [
     place: "Ditjen Binalavotas",
     role: "Magang - Analisis Keuangan dan Pusat Data Informasi  ",
     description: "Melakukan validasi terhadap laporan operasi dan akrual perusahaan serta merancang storyboard konten media sosial",
-    image: "/assets/experience3.jpg",
+    image: `${import.meta.env.BASE_URL}assets/experience3.jpg`,
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ const experience = [
     place: "CV Multi Karya Indonesia",
     role: "Magang - Asisten Operator Mesin Offset dan Digital",
     description: "Membantu mengoperasikan mesin cetak offset dan digital serta mempelajari software pengolah desain sebelum siap dicetak",
-    image: "/assets/experience2.jpg",
+    image: `${import.meta.env.BASE_URL}assets/experience2.jpg`,
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ const experience = [
     place: "Ekstrakurikuler Multimedia Club - SMKN 59 Jakarta",
     role: "Anggota Multimedia Club",
     description: "Menjadi anggota dari ekstrakurikuler multimedia club",
-    image: "/assets/experience1.jpg",
+    image: `${import.meta.env.BASE_URL}assets/experience1.jpg`,
   },
   // ... data lainnya
 ];

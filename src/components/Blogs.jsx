@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { blogData } from "../data";
 
 const Blogs = () => {
@@ -15,7 +17,7 @@ const Blogs = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 sm:px-6 md:px-12 lg:px-20">
           {blogData.map((item) => (
-            <link key={item.id} href={item.link} className="group relative block rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition">
+            <Link key={item.id} to={item.link} className="group relative block rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition">
               <div className="relative h-80 w-full rounded-lg overflow-hidden">
                 <img src={item.gambar} alt={item.judul} className="absolute inset-0 h-full w-full object-cover rounded-lg" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-lg" />
@@ -35,7 +37,7 @@ const Blogs = () => {
                 <h3 className="text-xl sm:text-2xl font-semibold text-white group-hover:text-white/80 transition">{item.judul}</h3>
                 <p className="mt-2 text-white/80 line-clamp-2">{item.desk}</p>
               </div>
-            </link>
+            </Link>
           ))}
         </div>
       </div>

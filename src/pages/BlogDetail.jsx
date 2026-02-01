@@ -14,7 +14,7 @@ const BlogDetail = () => {
 
           {/* Foto + Info Penulis */}
           <div className="flex  items-center md:items-start gap-4 mb-2">
-            <img src="/public/assets/profile.jpg" alt="Foto Penulis" className="w-16 h-16 object-cover rounded-full " />
+            <img src={`${import.meta.env.BASE_URL}assets/profile.jpg`} alt="Foto Penulis" className="w-16 h-16 object-cover rounded-full " />
 
             <div className="text-left">
               <h3 className="text-lg font-bold font-sans">Hans Rafa</h3>
@@ -36,7 +36,7 @@ const BlogDetail = () => {
               <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-white dark:from-gray-900 to-transparent flex justify-end"></div>
             </div>
 
-            <img src="/assets/blog1_konten.jpg" alt="Konten Gambar" className="w-full rounded-lg " />
+            <img src={`${import.meta.env.BASE_URL}assets/blog1_konten.jpg`} alt="Konten Gambar" className="w-full rounded-lg " />
             <figcaption className="font-open-sans italic text-gray-600 dark:text-gray-400 mt-2 text-start mb-4">Gambar hanya pemanis.</figcaption>
 
             <p className="text-gray-400 font-semibold font-sans md:text-lg leading-relaxed transition-all duration-500">

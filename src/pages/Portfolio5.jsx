@@ -28,7 +28,7 @@ const Portfolio5 = () => {
           </div>
 
           <div className="w-full max-w-[700px] mx-auto ">
-            <img src="/assets/desain5_1.jpg" alt="Main BinKlin" className="w-full aspect-[16/9] object-cover rounded-lg shadow-lg" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain5_1.jpg`} alt="Main BinKlin" className="w-full aspect-[16/9] object-cover rounded-lg shadow-lg" />
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-[700px] mx-auto">

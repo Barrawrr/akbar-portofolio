@@ -8,7 +8,7 @@ const Portfolio11 = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Gambar */}
           <div className="order-1 md:order-2 pt-20">
-            <img src={`${import.meta.env.BASE_URL}assets/prev-11.jpeg`} alt="Poster Van Helsing" className="w-3/4 md:w-[90%] rounded-lg shadow-lg mx-auto" />
+            <img src={`${import.meta.env.BASE_URL}assets/prev-11.jpeg`} alt="Pocari" className="w-3/4 md:w-[90%] rounded-lg shadow-lg mx-auto" />
           </div>
 
           {/* Teks */}

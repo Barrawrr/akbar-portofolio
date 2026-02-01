@@ -127,7 +127,7 @@ export const portfolioData = [
   },
   {
     id: 9,
-    img: `${import.meta.env.BASE_URL}assets/prev-9.jpg`,
+    img: `${import.meta.env.BASE_URL}assets/prev-9.jpeg`,
     link: "/portfolio/9",
     height: 750,
     title: "Project 11",

@@ -21,9 +21,9 @@ pt-4 md:pt-8 lg:pt-10 pb-32 my-navy"
         <div className="flex justify-center items-center">
           <div className=" mt-12 relative md:w-[40%]  overflow-hidden rounded-xl shadow-lg mx-auto">
             <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
-              <img src={`${import.meta.env.BASE_URL}assets/desain8_1.webp`} className="w-full " alt="Desain 1" />
-              <img src={`${import.meta.env.BASE_URL}assets/desain8_2.webp`} className="w-full " alt="Desain 2" />
-              <img src={`${import.meta.env.BASE_URL}assets/desain8_3.webp`} className="w-full " alt="Desain 3" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain8_1.webp`} className="w-full " alt="agt 1" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain8_2.webp`} className="w-full " alt="agt 2" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain8_3.webp`} className="w-full " alt="agt 3" />
             </div>
           </div>
 

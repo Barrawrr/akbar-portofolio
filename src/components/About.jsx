@@ -51,7 +51,7 @@ const About = () => {
             transition={{ duration: 0.9, ease: "easeOut" }}
             className="w-[90%] md:w-[60%] lg:w-[40%] flex justify-center mb-8 select-none"
           >
-            <img src={`${import.meta.env.BASE_URL}assets/abay.jpg`} alt="HeroGambar" width={500} height={500} className="max-w-full" />
+            <img src={`${import.meta.env.BASE_URL}assets/abay.jpeg`} alt="HeroGambar" width={500} height={500} className="max-w-full" />
             {/* <video src="/assets/Avatar finale.webm" autoPlay muted playsInline preload="auto" onEnded={(e) => e.currentTarget.pause()} className="max-w-full" /> */}
           </motion.div>
         </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -26,17 +27,17 @@ const About = () => {
 
             <div className="flex flex-row items-center gap-3 md:gap-5">
               {/* Dark */}
-              <a href="/about" className="btn-dark-solid dark:block hidden font-semibold">
+              <Link to="/about" className="btn-dark-solid dark:block hidden font-semibold">
                 Lihat selengkapnya
-              </a>
+              </Link>
               <a href="mailto:akbarazkila@gmail.com" className="btn-dark-outline dark:block hidden rounded-full py-3 px-6 text-base font-semibold">
                 Hubungi Saya
               </a>
 
               {/* Light */}
-              <a href="/about" className="btn-light-solid dark:hidden font-semibold">
+              <Link to="/about" className="btn-light-solid dark:hidden font-semibold">
                 Lihat selengkapnya
-              </a>
+              </Link>
               <a href="mailto:akbarazkila@gmail.com" className="btn-light-outline dark:hidden rounded-full py-3 px-6 text-base font-semibold">
                 Hubungi Saya
               </a>

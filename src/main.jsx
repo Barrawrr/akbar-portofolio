@@ -30,7 +30,7 @@ import BlogDetail from "./pages/BlogDetail.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <PreLoader />
-    <BrowserRouter>
+    <BrowserRouter basename="/akbar-portofolio">
       <Navbar />
       <Routes>
         <Route path="/" element={<App />} />
@@ -54,5 +54,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       </Routes>
       <Footer />
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

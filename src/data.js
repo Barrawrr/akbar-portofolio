@@ -61,7 +61,7 @@ export default experience;
 export const portfolioData = [
   {
     id: 1,
-    img: "/assets/prev-1.jpg",
+    img: `${import.meta.env.BASE_URL}assets/prev-1.jpg`,
     link: "/portfolio/1",
     height: 730,
     title: "Project 1",
@@ -69,7 +69,7 @@ export const portfolioData = [
   },
   {
     id: 2,
-    img: "/assets/prev-2.webp",
+    img: `${import.meta.env.BASE_URL}assets/prev-2.webp`,
     link: "/portfolio/2",
     height: 350,
     title: "Project 2",
@@ -77,7 +77,7 @@ export const portfolioData = [
   },
   {
     id: 3,
-    img: "/assets/prev-3.webp",
+    img: `${import.meta.env.BASE_URL}assets/prev-3.webp`,
     link: "/portfolio/3",
     height: 750,
     title: "Project 3",
@@ -85,7 +85,7 @@ export const portfolioData = [
   },
   {
     id: 4,
-    img: "/assets/prev-4.webp",
+    img: `${import.meta.env.BASE_URL}assets/prev-4.webp`,
     link: "/portfolio/4",
     height: 750,
     title: "Project 3",
@@ -93,7 +93,7 @@ export const portfolioData = [
   },
   {
     id: 5,
-    img: "/assets/prev-5.jpg",
+    img: `${import.meta.env.BASE_URL}assets/prev-5.jpg`,
     link: "/portfolio/5",
     height: 350,
     title: "Project 5",
@@ -102,7 +102,7 @@ export const portfolioData = [
 
   {
     id: 6,
-    img: "/assets/prev-6.webp",
+    img: `${import.meta.env.BASE_URL}assets/prev-6.webp`,
     link: "/portfolio/6",
     height: 350,
     title: "Project 7",
@@ -111,7 +111,7 @@ export const portfolioData = [
 
   {
     id: 7,
-    img: "/assets/prev-7.jpg",
+    img: `${import.meta.env.BASE_URL}assets/prev-7.jpg`,
     link: "/portfolio/7",
     height: 750,
     title: "Project 9",
@@ -119,7 +119,7 @@ export const portfolioData = [
   },
   {
     id: 8,
-    img: "/assets/prev-8.webp",
+    img: `${import.meta.env.BASE_URL}assets/prev-8.webp`,
     link: "/portfolio/8",
     height: 700,
     title: "Project 10",
@@ -127,7 +127,7 @@ export const portfolioData = [
   },
   {
     id: 9,
-    img: "/assets/prev-9.jpeg",
+    img: `${import.meta.env.BASE_URL}assets/prev-9.jpg`,
     link: "/portfolio/9",
     height: 750,
     title: "Project 11",
@@ -135,7 +135,7 @@ export const portfolioData = [
   },
   {
     id: 10,
-    img: "/assets/prev-10.jpeg",
+    img: `${import.meta.env.BASE_URL}assets/prev-10.jpeg`,
     link: "/portfolio/10",
     width: 900,
     height: 330,
@@ -145,7 +145,7 @@ export const portfolioData = [
 
   {
     id: 11,
-    img: "/assets/prev-11.jpeg",
+    img: `${import.meta.env.BASE_URL}assets/prev-11.jpeg`,
     link: "/portfolio/11",
     height: 750,
     title: "Project 14",
@@ -153,7 +153,7 @@ export const portfolioData = [
   },
   {
     id: 12,
-    img: "/assets/prev-12.jpg",
+    img: `${import.meta.env.BASE_URL}assets/prev-12.jpg`,
     link: "/portfolio/12",
     height: 780,
     title: "Project 17",
@@ -161,7 +161,7 @@ export const portfolioData = [
   },
   {
     id: 13,
-    img: "/assets/prev-13.jpeg",
+    img: `${import.meta.env.BASE_URL}assets/prev-13.jpeg`,
     link: "/portfolio/13",
     height: 750,
     title: "Project 17",
@@ -169,7 +169,7 @@ export const portfolioData = [
   },
   {
     id: 14,
-    img: "/assets/prev-14.webp",
+    img: `${import.meta.env.BASE_URL}assets/prev-14.webp`,
     link: "/portfolio/14",
     height: 730,
     title: "Project 17",
@@ -180,7 +180,7 @@ export const portfolioData = [
 export const portfolioImages = [
   {
     id: 1,
-    img: "/assets/Desain5_1.jpg",
+    img: `${import.meta.env.BASE_URL}assets/Desain5_1.jpg`,
     title: "Poster Digital",
     height: 500,
   },
@@ -193,7 +193,7 @@ export const blogData = [
     judul: "Mengapa desain grafis penting di era digital saat ini?",
     desk: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores sit labore totam perspiciatis harum? Tempora, nihil modi!",
     link: "/blog",
-    avatar: "/assets/profile.jpg",
+    avatar: `${import.meta.env.BASE_URL}assets/profile.jpg`,
     author: "Akbar Rafa",
     date: "Sep 09, 2025",
   },

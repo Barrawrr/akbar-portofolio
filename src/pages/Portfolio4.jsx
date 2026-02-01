@@ -8,7 +8,7 @@ const Portfolio4 = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Gambar */}
           <div className="order-1 md:order-2 pt-20">
-            <img src="/assets/prev-4.webp" alt="NS" className="w-3/4 md:w-[90%] rounded-lg shadow-lg mx-auto" />
+            <img src={`${import.meta.env.BASE_URL}assets/prev-4.webp`} alt="NS" className="w-3/4 md:w-[90%] rounded-lg shadow-lg mx-auto" />
           </div>
 
           {/* Teks */}
@@ -24,7 +24,7 @@ const Portfolio4 = () => {
               Poster ini saya buat menggunakan software Illustrator, dengan pendekatan gaya modern dan minimalis agar tampilan terlihat bersih, fokus, dan mudah dipahami..
             </p>
             <p className="font-sans text-lg font-semibold text-gray-700 dark:text-gray-400 mb-2">Tools</p>
-            <img src="/ai.svg" alt="adobe-photoshop" className="w-12 h-12 mr-3 fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+            <img src={`${import.meta.env.BASE_URL}ai.svg`} alt="adobe-photoshop" className="w-12 h-12 mr-3 fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
           </div>
         </div>
       </div>

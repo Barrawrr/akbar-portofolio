@@ -8,7 +8,7 @@ const Portfolio9 = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Gambar */}
           <div className="order-1 md:order-2 pt-20">
-            <img src="/assets/prev-9.jpeg" alt="NorthVal" className="w-3/4 md:w-[90%] rounded-lg shadow-lg mx-auto" />
+            <img src={`${import.meta.env.BASE_URL}assets/prev-9.jpeg`} alt="NorthVal" className="w-3/4 md:w-[90%] rounded-lg shadow-lg mx-auto" />
           </div>
 
           {/* Teks */}
@@ -24,7 +24,7 @@ const Portfolio9 = () => {
               ruang yang lebih luas.
             </p>
             <p className="font-sans mt-2 text-lg font-semibold text-gray-700 dark:text-gray-400 mb-2">Tools</p>
-            <img src="/ps.svg" alt="adobe-photoshop" className="w-12 h-12 mr-3 fill-blue-900 drop-shadow-lg drop-shadow-blue-900/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+            <img src={`${import.meta.env.BASE_URL}ps.svg`} alt="adobe-photoshop" className="w-12 h-12 mr-3 fill-blue-900 drop-shadow-lg drop-shadow-blue-900/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
           </div>
         </div>
       </div>

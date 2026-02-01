@@ -19,12 +19,12 @@ const Portfolio7 = () => {
         <div className="flex justify-center items-center">
           <div className="relative w-[500px] h-[700px] md:h-[550px] overflow-hidden rounded-xl shadow-lg">
             <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
-              <img src="/assets/Desain7_1.png" className="w-full flex-shrink-0 object-cover" alt="Desain 1" />
-              <img src="/assets/Desain7_2.png" className="w-full flex-shrink-0 object-cover" alt="Desain 2" />
-              <img src="/assets/Desain7_3.png" className="w-full flex-shrink-0 object-cover" alt="Desain 3" />
-              <img src="/assets/Desain7_4.png" className="w-full flex-shrink-0 object-cover" alt="Desain 4" />
-              <img src="/assets/Desain7_5.png" className="w-full flex-shrink-0 object-cover" alt="Desain 5" />
-              <img src="/assets/Desain7_6.png" className="w-full flex-shrink-0 object-cover" alt="Desain 6" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain7_1.png`} className="w-full flex-shrink-0 object-cover" alt="Desain 1" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain7_2.png`} className="w-full flex-shrink-0 object-cover" alt="Desain 2" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain7_3.png`} className="w-full flex-shrink-0 object-cover" alt="Desain 3" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain7_4.png`} className="w-full flex-shrink-0 object-cover" alt="Desain 4" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain7_5.png`} className="w-full flex-shrink-0 object-cover" alt="Desain 5" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain7_6.png`} className="w-full flex-shrink-0 object-cover" alt="Desain 6" />
             </div>
           </div>
 
@@ -69,8 +69,8 @@ const Portfolio7 = () => {
           </p>
           <p className="font-sans text-lg font-semibold text-gray-700 dark:text-gray-400 mb-2">Tools</p>
           <div className="flex flex-row gap-4 mt-6 item-start">
-            <img src="/ps.svg" alt="adobe-photoshop" className="w-12 h-12  fill-blue-900 drop-shadow-lg drop-shadow-blue-900/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
-            <img src="/ai.svg" alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+            <img src={`${import.meta.env.BASE_URL}ps.svg`} alt="adobe-photoshop" className="w-12 h-12  fill-blue-900 drop-shadow-lg drop-shadow-blue-900/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+            <img src={`${import.meta.env.BASE_URL}ai.svg`} alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
           </div>
         </div>
       </div>

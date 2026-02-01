@@ -31,19 +31,19 @@ const Portfolio2 = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-[700px] mx-auto">
-            <img src="/assets/desain2_1.jpg" alt="usk1" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
-            <img src="/assets/desain2_2.jpg" alt="usk2" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
-            <img src="/assets/desain2_3.jpg" alt="usk3" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
-            <img src="/assets/desain2_4.jpg" alt="usk4" className=" mb-6 w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain2_1.jpg`} alt="usk1" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain2_2.jpg`} alt="usk2" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain2_3.jpg`} alt="usk3" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain2_4.jpg`} alt="usk4" className=" mb-6 w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
           </div>
         </div>
         <p className="font-sans text-lg font-semibold text-gray-700 dark:text-gray-400 mb-2">Tools</p>
         <div className="flex flex-row gap-4 mt-6 item-start">
-          <img src="/ps.svg" alt="adobe-photoshop" className="w-12 h-12  fill-blue-900 drop-shadow-lg drop-shadow-blue-900/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
-          <img src="/ai.svg" alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
-          <img src="/ae.svg" alt="adobe-ae" className="w-12 h-12  fill-indigo-800 drop-shadow-lg drop-shadow-indigo-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
-          <img src="/pr.svg" alt="premier pro" className="w-12 h-12  fill-indigo-800 drop-shadow-lg drop-shadow-indigo-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
-          <img src="/me.svg" alt="media encoder" className="w-11 h-11  fill-indigo-800 drop-shadow-lg drop-shadow-indigo-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+          <img src={`${import.meta.env.BASE_URL}ps.svg`} alt="adobe-photoshop" className="w-12 h-12  fill-blue-900 drop-shadow-lg drop-shadow-blue-900/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+          <img src={`${import.meta.env.BASE_URL}ai.svg`} alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+          <img src={`${import.meta.env.BASE_URL}ae.svg`} alt="adobe-ae" className="w-12 h-12  fill-indigo-800 drop-shadow-lg drop-shadow-indigo-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+          <img src={`${import.meta.env.BASE_URL}pr.svg`} alt="premier pro" className="w-12 h-12  fill-indigo-800 drop-shadow-lg drop-shadow-indigo-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+          <img src={`${import.meta.env.BASE_URL}me.svg`} alt="media encoder" className="w-11 h-11  fill-indigo-800 drop-shadow-lg drop-shadow-indigo-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
         </div>
       </div>
     </main>

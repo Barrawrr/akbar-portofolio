@@ -17,16 +17,16 @@ const Portfolio6 = () => {
       <div className="max-w-7xl mx-auto pt-24 px-6 md:px-12 lg:px-16">
         <div className="relative w-full h-[400px] md:h-[550px] overflow-hidden rounded-xl shadow-lg">
           <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
-            <img src="/assets/desain6_1.jpg" className="w-full flex-shrink-0 object-cover" alt="Desain 1" />
-            <img src="/assets/desain6_2.jpg" className="w-full flex-shrink-0 object-cover" alt="Desain 2" />
-            <img src="/assets/desain6_3.jpeg" className="w-full flex-shrink-0 object-cover" alt="Desain 3" />
-            <img src="/assets/desain6_4.jpg" className="w-full flex-shrink-0 object-cover" alt="Desain 4" />
-            <img src="/assets/desain6_5.jpg" className="w-full flex-shrink-0 object-cover" alt="Desain 5" />
-            <img src="/assets/desain6_6.jpg" className="w-full flex-shrink-0 object-cover" alt="Desain 6" />
-            <img src="/assets/desain6_7.jpg" className="w-full flex-shrink-0 object-cover" alt="Desain 7" />
-            <img src="/assets/desain6_8.jpg" className="w-full flex-shrink-0 object-cover" alt="Desain 8" />
-            <img src="/assets/desain6_9.jpg" className="w-full flex-shrink-0 object-cover" alt="Desain 9" />
-            <img src="/assets/desain6_10.jpg" className="w-full flex-shrink-0 object-cover" alt="Desain 10" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain6_1.jpg`} className="w-full flex-shrink-0 object-cover" alt="Desain 1" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain6_2.jpg`} className="w-full flex-shrink-0 object-cover" alt="Desain 2" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain6_3.jpeg`} className="w-full flex-shrink-0 object-cover" alt="Desain 3" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain6_4.jpg`} className="w-full flex-shrink-0 object-cover" alt="Desain 4" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain6_5.jpg`} className="w-full flex-shrink-0 object-cover" alt="Desain 5" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain6_6.jpg`} className="w-full flex-shrink-0 object-cover" alt="Desain 6" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain6_7.jpg`} className="w-full flex-shrink-0 object-cover" alt="Desain 7" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain6_8.jpg`} className="w-full flex-shrink-0 object-cover" alt="Desain 8" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain6_9.jpg`} className="w-full flex-shrink-0 object-cover" alt="Desain 9" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain6_10.jpg`} className="w-full flex-shrink-0 object-cover" alt="Desain 10" />
           </div>
 
           <button onClick={prevSlide} className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none">
@@ -69,8 +69,8 @@ const Portfolio6 = () => {
           </p>
           <p className="font-sans text-lg font-semibold text-gray-700 dark:text-gray-400 mb-2">Tools</p>
           <div className="flex flex-row gap-4 mt-6 item-start">
-            <img src="/ps.svg" alt="adobe-photoshop" className="w-12 h-12  fill-blue-900 drop-shadow-lg drop-shadow-blue-900/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
-            <img src="/ai.svg" alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+            <img src={`${import.meta.env.BASE_URL}ps.svg`} alt="adobe-photoshop" className="w-12 h-12  fill-blue-900 drop-shadow-lg drop-shadow-blue-900/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+            <img src={`${import.meta.env.BASE_URL}ai.svg`} alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
           </div>
         </div>
       </div>

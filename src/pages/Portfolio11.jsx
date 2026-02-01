@@ -8,7 +8,7 @@ const Portfolio11 = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Gambar */}
           <div className="order-1 md:order-2 pt-20">
-            <img src="/assets/prev-11.jpeg" alt="Poster Van Helsing" className="w-3/4 md:w-[90%] rounded-lg shadow-lg mx-auto" />
+            <img src={`${import.meta.env.BASE_URL}assets/prev-11.jpeg`} alt="Poster Van Helsing" className="w-3/4 md:w-[90%] rounded-lg shadow-lg mx-auto" />
           </div>
 
           {/* Teks */}
@@ -24,7 +24,7 @@ const Portfolio11 = () => {
               Desain ini saya buat menggunakan Adobe Illustrator, dengan teknik Create Outlines pada setiap kata sebelum dibentuk menggunakan Mesh Warp agar tipografi dapat mengikuti siluet botol secara presisi.
             </p>
             <p className="font-sans text-lg font-semibold text-gray-700 dark:text-gray-400 mb-2">Tools</p>
-            <img src="/ai.svg" alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+            <img src={`${import.meta.env.BASE_URL}ai.svg`} alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
           </div>
         </div>
       </div>

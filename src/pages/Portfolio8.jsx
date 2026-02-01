@@ -21,9 +21,9 @@ pt-4 md:pt-8 lg:pt-10 pb-32 my-navy"
         <div className="flex justify-center items-center">
           <div className=" mt-12 relative md:w-[40%]  overflow-hidden rounded-xl shadow-lg mx-auto">
             <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
-              <img src="/assets/desain8_1.webp" className="w-full " alt="Desain 1" />
-              <img src="/assets/desain8_2.webp" className="w-full " alt="Desain 2" />
-              <img src="/assets/desain8_3.webp" className="w-full " alt="Desain 3" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain8_1.webp`} className="w-full " alt="Desain 1" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain8_2.webp`} className="w-full " alt="Desain 2" />
+              <img src={`${import.meta.env.BASE_URL}assets/desain8_3.webp`} className="w-full " alt="Desain 3" />
             </div>
           </div>
 
@@ -72,7 +72,7 @@ pt-4 md:pt-8 lg:pt-10 pb-32 my-navy"
 
           <p className="font-sans text-lg font-semibold text-gray-700 dark:text-gray-400 mb-2">Tools</p>
           <div className="flex flex-row gap-4 item-start">
-            <img src="/ai.svg" alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+            <img src={`${import.meta.env.BASE_URL}ai.svg`} alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
           </div>
         </div>
       </div>

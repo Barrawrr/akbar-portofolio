@@ -8,7 +8,7 @@ const Portfolio13 = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Video */}
           <div className="w-full order-1 md:order-2 pt-20 mb-6 flex justify-center">
-            <video src="/assets/Motion1.mp4" className="w-3/4 md:w-[90%]" autoPlay loop muted playsInline />
+            <video src={`${import.meta.env.BASE_URL}assets/Motion1.mp4`} className="w-3/4 md:w-[90%]" autoPlay loop muted playsInline />
           </div>
 
           {/* Teks */}
@@ -28,8 +28,8 @@ const Portfolio13 = () => {
             </p>
             <p className="font-sans text-lg font-semibold text-gray-700 dark:text-gray-400 mb-2">Tools</p>
             <div className="flex flex-row gap-4 mt-6 item-start">
-              <img src="/ai.svg" alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
-              <img src="/ae.svg" alt="adobe-ae" className="w-12 h-12  fill-indigo-800 drop-shadow-lg drop-shadow-indigo-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>{" "}
+              <img src={`${import.meta.env.BASE_URL}ai.svg`} alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+              <img src={`${import.meta.env.BASE_URL}ae.svg`} alt="adobe-ae" className="w-12 h-12  fill-indigo-800 drop-shadow-lg drop-shadow-indigo-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>{" "}
             </div>
           </div>
         </div>

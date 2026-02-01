@@ -32,15 +32,15 @@ const Portfolio5 = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-[700px] mx-auto">
-            <img src="/assets/desain5_2.jpg" alt="Binklin2" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
-            <img src="/assets/desain5_3.jpg" alt="Binklin3" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
-            <img src="/assets/desain5_4.jpg" alt="Binklin4" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
-            <img src="/assets/desain5_5.jpg" alt="Binklin5" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain5_2.jpg`} alt="Binklin2" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain5_3.jpg`} alt="Binklin3" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain5_4.jpg`} alt="Binklin4" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
+            <img src={`${import.meta.env.BASE_URL}assets/desain5_5.jpg`} alt="Binklin5" className="w-full aspect-[16/9] object-cover rounded-lg shadow-md" />
           </div>
         </div>
         <p className="font-sans text-lg font-semibold text-gray-700 dark:text-gray-400 mt-6 mb-2">Tools</p>
         <div className="flex flex-row item-start">
-          <img src="/ai.svg" alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
+          <img src={`${import.meta.env.BASE_URL}ai.svg`} alt="adobe-illustrator" className="w-12 h-12  fill-orange-800 drop-shadow-lg drop-shadow-orange-800/50 hover transition-transform duration-300 ease-in-out hover:scale-120"></img>
         </div>
       </div>
     </main>

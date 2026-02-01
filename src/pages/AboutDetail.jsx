@@ -55,7 +55,7 @@ const AboutDetail = () => {
 
           {/* Gambar */}
           <div className="order-2 lg:order-2 w-full md:w-6/12 lg:w-1/2 flex justify-center mb-8">
-            <img src="/assets/bay.jpeg" alt="HeroGambar" width={350} height={350} className="max-w-full" />
+            <img src={`${import.meta.env.BASE_URL}assets/bay.jpeg`} alt="HeroGambar" width={350} height={350} className="max-w-full" />
           </div>
         </div>
       </div>

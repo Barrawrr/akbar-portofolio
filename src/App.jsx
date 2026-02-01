@@ -6,7 +6,7 @@ import Portfolio from "@/components/Portfolio";
 import Clients from "@/components/Clients";
 import Blogs from "@/components/Blogs";
 import Contact from "@/components/Contact";
-import Chatbot from "@/components/Chatbot";
+import Chatbot from "@/components/Chatbot.jsx";
 
 function App() {
   return (
